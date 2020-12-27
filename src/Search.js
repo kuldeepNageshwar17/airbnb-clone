@@ -9,8 +9,8 @@ import { useHistory } from 'react-router-dom';
 
 export default function Search() {
     const history= useHistory();
-const [startDate, setstartDate] = useState(new Date())
-const [endDate, setendDate] = useState(new Date())
+// const [startDate, setstartDate] = useState(new Date())
+// const [endDate, setendDate] = useState(new Date())
     const selectionRange = {
         startDate: new Date(),
         endDate: new Date(),
