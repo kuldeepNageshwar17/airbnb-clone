@@ -17,8 +17,8 @@ export default function Search() {
         key: 'selection',
       }
     const handleSelect=(ranges)=>{
-        setstartDate(ranges.selection.startDate)
-        setendDate(ranges.selection.endDate)
+        // setstartDate(ranges.selection.startDate)
+        // setendDate(ranges.selection.endDate)
     }
     return (
         <div className="search">
